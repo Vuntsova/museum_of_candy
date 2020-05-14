@@ -1,0 +1,9 @@
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.navbar-brand, .nav-link{
+    font-size: 1.7rem;
+}
