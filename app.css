@@ -1,9 +1,29 @@
 body {
     background: #f5d9d5;
     font-family: "Nunito", sans-serif;
-    font-weight: 100;
+}
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
 }
 
-.navbar-brand, .nav-link{
-    font-size: 1.7rem;
+#mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+    color: red; 
 }
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#headerGroup h1{
+    font-size: 4rem;
+    font-weight: 100
+}
+
+ @media (max-width: 1200px) { 
+     #headerGroup h1{
+    font-size: 3rem;
+    font-weight: 100
+}
+  }
